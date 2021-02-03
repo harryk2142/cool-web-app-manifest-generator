@@ -1,0 +1,55 @@
+{
+  "name": "cool-web-manifest-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "pnpm build && firebase deploy",
+    "start": "parcel -p 3000 src/app.js -d public",
+    "build": "parcel build src/app.js --no-source-maps -d public"
+  },
+  "keywords": [],
+  "author": "Harry Kramer",
+  "license": "ISC",
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticOutDir": "icons",
+        "staticPath": "src/icons"
+      },
+      {
+        "staticOutDir": "css",
+        "staticPath": "src/css"
+      },
+      {
+        "staticOutDir": "",
+        "staticPath": "src/index.html"
+      },
+      {
+        "staticOutDir": "",
+        "staticPath": "src/manifest.json"
+      },
+      {
+        "staticOutDir": "",
+        "staticPath": "src/sw.js"
+      }
+    ]
+  },
+  "parcelCleanPaths": [
+    "public"
+  ],
+  "dependencies": {
+    "lit-element": "^2.4.0",
+    "lit-html": "^1.3.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "cssnano": "^4.1.10",
+    "del-cli": "^3.0.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.5.1",
+    "serve": "^11.3.2"
+  }
+}
