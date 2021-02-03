@@ -1,0 +1,1 @@
+# cool-web-manifest-generator
