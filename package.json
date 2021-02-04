@@ -8,9 +8,9 @@
     "start": "parcel -p 3000 src/app.js -d public",
     "build": "parcel build src/app.js --no-source-maps -d public"
   },
-  "keywords": [],
+  "keywords": ["lit-html","lithtml","polymer-project","polymerproject","parcel","bulma"],
   "author": "Harry Kramer",
-  "license": "ISC",
+  "license": "MIT",
   "staticFiles": {
     "staticPath": [
       {
