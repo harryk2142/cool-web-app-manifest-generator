@@ -3,7 +3,7 @@
      "short_name": "WebManifestGen",
      "background_color": "black",
      "theme_color": "black",
-     "start_url": "./index.html",
+     "start_url": "/index.html",
      "display": "standalone",
      "icons": [
           {
