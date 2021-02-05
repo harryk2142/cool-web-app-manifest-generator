@@ -32,6 +32,10 @@
       {
         "staticOutDir": "",
         "staticPath": "src/sw.js"
+      },
+      {
+        "staticOutDir": "js",
+        "staticPath": "src/js/main.js"
       }
     ]
   },

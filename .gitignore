@@ -1,3 +1,18 @@
+# public folder from build
+public
+
+# vs-code settings
+.vscode
+
+# firebase
+.firebase
+
+# pnpm
+pnpm-lock.yaml
+
+# we do not need package-lock
+package-lock.json
+
 # Logs
 logs
 *.log

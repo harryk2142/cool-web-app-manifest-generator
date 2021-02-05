@@ -77,7 +77,7 @@ function app() {
                                     Resize Image
                                 </button>
                             </div>
-                            <p class="help is-success">More Icons see <a target="_blank"
+                            <p class="help is-success">More Icons see <a target="_blank" rel=”noopener”
                                     href="https://www.pwabuilder.com/imageGenerator">imageGenerator</a></p>
                         </div>
     
@@ -112,7 +112,7 @@ function app() {
                             <div class="control">
                                 <textarea rows="15" id="generatedJson" class="textarea is-info"
                                     value="This text is readonly" readonly>
-                                                                                                                                                        </textarea>
+                                                                                                                                                                </textarea>
                             </div>
                         </div>
                         <div class="field">
@@ -122,7 +122,7 @@ function app() {
                             <div class="control">
                                 <textarea rows="15" id="head" class="textarea is-info" value="This text is readonly"
                                     readonly>
-                                                                                                                                                        </textarea>
+                                                                                                                                                                </textarea>
                             </div>
                         </div>
                     </div>
