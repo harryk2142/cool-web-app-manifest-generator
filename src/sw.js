@@ -1,4 +1,4 @@
-var cacheName = 'cool-web-manifest-generator';
+var cacheName = 'cool-web-app-manifest-generator';
 var filesToCache = [
   '/',
   '/index.html',

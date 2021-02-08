@@ -1,8 +1,8 @@
-# cool-web-manifest-generator 
+# cool-web-app-manifest-generator 
 
 © harryk2142
 
-https://cool-web-manifest-generator.web.app
+https://web-app-manifest-generator.web.app
 
 To Start
 1. pnpm install
