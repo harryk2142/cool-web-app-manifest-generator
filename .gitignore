@@ -6,6 +6,7 @@ public
 
 # firebase
 .firebase
+.firebaserc
 
 # pnpm
 pnpm-lock.yaml
