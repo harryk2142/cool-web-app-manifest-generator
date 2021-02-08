@@ -14,7 +14,7 @@ class HeadContainer extends LitElement {
             <div class="navbar-brand">
                 <div class="navbar-item">
                     <div class="title is-4 is-spaced pl-4 pb-4 pt-4 head-background">
-                        <p>WEB MANIFEST GENERATOR</p>
+                        <p>WEB APP MANIFEST GENERATOR</p>
                     </div>
                 </div>
             </div>
